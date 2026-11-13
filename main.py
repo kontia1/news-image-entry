@@ -4,6 +4,7 @@ import os
 import shutil
 
 SRC: Path = Path("entry.png")
+# Cap is 1 MiB (1024 * 1024 bytes) by competition rule.
 MAX_BYTES: int = 1024 * 1024
 
 
